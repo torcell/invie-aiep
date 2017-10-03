@@ -213,3 +213,35 @@ td {
     border: 1px solid #273b47;
     border-collapse: collapse;
 }
+ @media (min-width: 500px) {
+        /* If the screen is wider then 500px, use Flexbox */
+        .container {
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+        }
+        .c1 {
+          position: relative;
+          -webkit-transition: none 0s ease-out;
+          transition: none 0s ease-out;
+          -webkit-transform: translate(0,0);
+          transform: translate(0,0);
+        }
+        .c2 {
+          position: static;
+        }
+      }
+      @media (min-width: 800px) {
+        body {
+          overflow-x: auto;
+        }
+        .c3 {
+          position: relative;
+          left: auto;
+          -webkit-transition: none 0s ease-out;
+          transition: none 0s ease-out;
+          -webkit-transform: translate(0,0);
+          transform: translate(0,0);
+        }
+      }
