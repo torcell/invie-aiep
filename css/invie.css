@@ -215,7 +215,7 @@ td {
 }
 @media (min-width: 500px) {
         /* If the screen is wider then 500px, use Flexbox */
-        .contenedor {
+        .container {
           display: -webkit-flex;
           display: flex;
           -webkit-flex-flow: row nowrap;
@@ -231,6 +231,7 @@ td {
         .c2 {
           position: static;
         }
+  h1 {font-size: 12px;}
       }
       @media (min-width: 800px) {
         body {
