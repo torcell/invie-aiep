@@ -21,6 +21,8 @@ body {
     margin: 0;
 }
 
+div {color: blue;}
+
 .button {
     border-radius: 5px;
     border: none;
